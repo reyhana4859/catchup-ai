@@ -1,3 +1,4 @@
 [ai]
 required = true
-description = "CatchUp AI uses a language model to extract evidence-backed tasks, decisions, deadlines and conversation topics. If AI is unavailable, the browser demo uses a local heuristic fallback."
+providers = ["openai"]
+description = "CatchUp AI uses a language model to extract evidence-backed tasks, decisions, deadlines and conversation topics. Users can explicitly save generated briefings to the project's PostgreSQL database."
